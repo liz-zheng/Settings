@@ -5,7 +5,4 @@ export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$HOME/bin
 export PATH=$PATH:/Users/mzheng/git/grpc/bins/opt
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
-alias e1='kce1usw2'
-alias pqa='kc26717f0f'
-alias prod='kc4b960cd9'
-alias spint='kcbb898319'
+
