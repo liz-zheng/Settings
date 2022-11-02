@@ -28,12 +28,6 @@ if [ -f ~/.bashrc ]; then
   source ~/.bashrc
 fi
 alias proj='cd /Users/mzheng/git/'
-alias gop='cd /Users/mzheng/go/src'
-alias ml='ssh b.ml-usw2-01.h.km.playstation.net'
-alias e1='ssh b.e1-np.kmb.sonynei.net'
-alias p1='ssh b.p1-np.kmb.sonynei.net'
-alias p2='ssh b.p1-np-usw2-01.h.km.playstation.net'
-alias sp-int='ssh b.sp-int-usw2-01.h.km.playstation.net'
 parse_git_branch() {
 git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ [\1]/'
 }
